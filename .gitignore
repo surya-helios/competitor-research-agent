@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Local run data: checkpoints, search cache, budget ledger
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/

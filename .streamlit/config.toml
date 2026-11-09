@@ -1,0 +1,7 @@
+# Serve only on this machine: the app spends your API credits.
+[server]
+address = "localhost"
+port = 8501
+
+[browser]
+gatherUsageStats = false

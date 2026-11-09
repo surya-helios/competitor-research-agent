@@ -1,0 +1,1190 @@
+[
+  {
+    "company": "Linear",
+    "run_id": "run-0c14476a",
+    "completed": true,
+    "seconds": 62,
+    "proposed": [
+      "Jira",
+      "Plane",
+      "Shortcut"
+    ],
+    "discovery_hits": [
+      "Jira",
+      "Plane",
+      "Shortcut"
+    ],
+    "checkpoints": [
+      "approve_competitors",
+      "approve_brief"
+    ],
+    "issues": [],
+    "found_claims": 35,
+    "verified_claims": 33,
+    "high_confidence": 19,
+    "excluded": {
+      "news older than 90 days (2025-09-30)": 1,
+      "news older than 90 days (2026-04-02)": 1
+    },
+    "field_coverage": {
+      "Jira": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Plane": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Shortcut": [
+        "pricing",
+        "feature",
+        "positioning"
+      ]
+    },
+    "branch_status": {
+      "Jira": "complete",
+      "Plane": "complete",
+      "Shortcut": "complete"
+    },
+    "tavily_credits": 6.0,
+    "nebius_usd": 0.0236,
+    "retries": 2,
+    "prices_to_check": [
+      {
+        "competitor": "Jira",
+        "plan": "Free plan",
+        "value": "$0 per user/month, billed monthly",
+        "confidence": "high",
+        "source": "https://www.atlassian.com/en/software/jira/pricing"
+      },
+      {
+        "competitor": "Jira",
+        "plan": "Standard plan",
+        "value": "$8.48 per user/month, billed monthly",
+        "confidence": "high",
+        "source": "https://www.atlassian.com/en/software/jira/pricing"
+      },
+      {
+        "competitor": "Jira",
+        "plan": "Premium plan",
+        "value": "$15.56 per user/month, billed monthly",
+        "confidence": "high",
+        "source": "https://www.atlassian.com/en/software/jira/pricing"
+      },
+      {
+        "competitor": "Plane",
+        "plan": "Cloud Free Tier",
+        "value": "Free, unlimited users",
+        "confidence": "medium",
+        "source": "https://plane.so/pricing"
+      },
+      {
+        "competitor": "Plane",
+        "plan": "Cloud Paid Plan",
+        "value": "$7+ per user/month",
+        "confidence": "medium",
+        "source": "https://www.ideaplan.io/pm-tools/compare/plane-vs-linear"
+      },
+      {
+        "competitor": "Plane",
+        "plan": "Self-Hosted",
+        "value": "Free, one-time setup",
+        "confidence": "medium",
+        "source": "https://plane.so/pricing"
+      },
+      {
+        "competitor": "Shortcut",
+        "plan": "Free Plan",
+        "value": "$0 per user/month",
+        "confidence": "high",
+        "source": "https://www.shortcut.com/pricing"
+      },
+      {
+        "competitor": "Shortcut",
+        "plan": "Team Plan",
+        "value": "$10 per user/month, billed monthly",
+        "confidence": "high",
+        "source": "https://www.shortcut.com/faq"
+      },
+      {
+        "competitor": "Shortcut",
+        "plan": "Business Plan",
+        "value": "$16 per user/month, billed monthly",
+        "confidence": "high",
+        "source": "https://www.shortcut.com/faq"
+      }
+    ],
+    "brief_path": "C:\\Users\\siryi\\competitor-research-agent\\data\\briefs\\run-0c14476a.md"
+  },
+  {
+    "company": "Notion",
+    "run_id": "run-d9a39001",
+    "completed": true,
+    "seconds": 96,
+    "proposed": [
+      "Slite",
+      "Confluence",
+      "Coda"
+    ],
+    "discovery_hits": [
+      "Slite",
+      "Confluence",
+      "Coda"
+    ],
+    "checkpoints": [
+      "approve_competitors",
+      "review_issues",
+      "approve_brief"
+    ],
+    "issues": [
+      {
+        "competitor": "Coda",
+        "kind": "missing",
+        "detail": "no usable pricing information"
+      },
+      {
+        "competitor": "Coda",
+        "kind": "conflict",
+        "claim_id": "cl-coda-pricing-defa21b779fd",
+        "detail": "pricing (Pro plan): $12 per Doc Maker/month"
+      },
+      {
+        "competitor": "Coda",
+        "kind": "conflict",
+        "claim_id": "cl-coda-pricing-18d328946ac0",
+        "detail": "pricing (AI credits add-on): Unlimited AI for $12 per Doc Maker per month"
+      }
+    ],
+    "found_claims": 26,
+    "verified_claims": 23,
+    "high_confidence": 17,
+    "excluded": {
+      "news older than 90 days (2006-03-01)": 1,
+      "news older than 90 days (2023-10-03)": 1,
+      "news older than 90 days (2026-06-04)": 1
+    },
+    "field_coverage": {
+      "Slite": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Confluence": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Coda": [
+        "feature",
+        "positioning"
+      ]
+    },
+    "branch_status": {
+      "Slite": "complete",
+      "Confluence": "complete",
+      "Coda": "complete"
+    },
+    "tavily_credits": 35.0,
+    "nebius_usd": 0.0237,
+    "retries": 2,
+    "prices_to_check": [
+      {
+        "competitor": "Slite",
+        "plan": "Basic",
+        "value": "$10 per user/month, billed annually",
+        "confidence": "high",
+        "source": "https://slite.com/learn/technical-documentation-software"
+      },
+      {
+        "competitor": "Slite",
+        "plan": "Pro",
+        "value": "$20 per user/month, billed annually",
+        "confidence": "high",
+        "source": "https://slite.com/learn/technical-documentation-software"
+      },
+      {
+        "competitor": "Confluence",
+        "plan": "Standard plan",
+        "value": "$600/year for 1-10 users, billed annually",
+        "confidence": "high",
+        "source": "https://community.atlassian.com/forums/discussion/2671198/confluence-pricing-for-one-person"
+      },
+      {
+        "competitor": "Confluence",
+        "plan": "Premium plan",
+        "value": "$11.55 per user/month for 20 users, billed monthly",
+        "confidence": "high",
+        "source": "https://community.atlassian.com/forums/Confluence-questions/Premium-account-charges/qaq-p/2825661"
+      }
+    ],
+    "brief_path": "C:\\Users\\siryi\\competitor-research-agent\\data\\briefs\\run-d9a39001.md"
+  },
+  {
+    "company": "Figma",
+    "run_id": "run-32ecb049",
+    "completed": true,
+    "seconds": 86,
+    "proposed": [
+      "Penpot",
+      "Adobe XD",
+      "Framer"
+    ],
+    "discovery_hits": [
+      "Penpot",
+      "Adobe XD",
+      "Framer"
+    ],
+    "checkpoints": [
+      "approve_competitors",
+      "review_issues",
+      "approve_brief"
+    ],
+    "issues": [
+      {
+        "competitor": "Penpot",
+        "kind": "conflict",
+        "claim_id": "cl-penpot-pricing-052a3c16072e",
+        "detail": "pricing (Enterprise): $25 per member/month"
+      },
+      {
+        "competitor": "Penpot",
+        "kind": "conflict",
+        "claim_id": "cl-penpot-pricing-8816045c7521",
+        "detail": "pricing (Enterprise (flat rate)): $950 per month"
+      },
+      {
+        "competitor": "Adobe XD",
+        "kind": "missing",
+        "detail": "no usable pricing information"
+      }
+    ],
+    "found_claims": 26,
+    "verified_claims": 23,
+    "high_confidence": 16,
+    "excluded": {
+      "news older than 90 days (2024-02-20)": 1,
+      "quote not found in source": 2
+    },
+    "field_coverage": {
+      "Penpot": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Adobe XD": [
+        "feature",
+        "positioning"
+      ],
+      "Framer": [
+        "pricing",
+        "feature",
+        "positioning"
+      ]
+    },
+    "branch_status": {
+      "Penpot": "complete",
+      "Adobe XD": "complete",
+      "Framer": "complete"
+    },
+    "tavily_credits": 41.0,
+    "nebius_usd": 0.0348,
+    "retries": 4,
+    "prices_to_check": [
+      {
+        "competitor": "Penpot",
+        "plan": "Professional",
+        "value": "$0 per user/month",
+        "confidence": "high",
+        "source": "https://penpot.app/pricing"
+      },
+      {
+        "competitor": "Penpot",
+        "plan": "Unlimited",
+        "value": "$7 per editor/month, capped at $175 per month",
+        "confidence": "high",
+        "source": "https://penpot.app/pricing"
+      },
+      {
+        "competitor": "Penpot",
+        "plan": "Private Server",
+        "value": "$50k per year",
+        "confidence": "high",
+        "source": "https://penpot.app/pricing"
+      },
+      {
+        "competitor": "Framer",
+        "plan": "Basic plan",
+        "value": "$10 per month, billed monthly or annually",
+        "confidence": "high",
+        "source": "https://www.framer.com/pricing"
+      },
+      {
+        "competitor": "Framer",
+        "plan": "Pro plan",
+        "value": "$30 per month, billed monthly or annually",
+        "confidence": "high",
+        "source": "https://www.framer.com/pricing"
+      },
+      {
+        "competitor": "Framer",
+        "plan": "Additional editors",
+        "value": "$20 per editor/month, billed monthly",
+        "confidence": "high",
+        "source": "https://www.framer.com/help/articles/site-plans-explained"
+      },
+      {
+        "competitor": "Framer",
+        "plan": "Content editors",
+        "value": "$10 per editor/month, billed monthly",
+        "confidence": "high",
+        "source": "https://www.framer.com/help/articles/site-plans-explained"
+      }
+    ],
+    "brief_path": "C:\\Users\\siryi\\competitor-research-agent\\data\\briefs\\run-32ecb049.md"
+  },
+  {
+    "company": "HubSpot",
+    "run_id": "run-8bae23f2",
+    "completed": true,
+    "seconds": 113,
+    "proposed": [
+      "Salesforce",
+      "Zoho CRM",
+      "Freshsales"
+    ],
+    "discovery_hits": [
+      "Salesforce",
+      "Zoho CRM",
+      "Freshsales"
+    ],
+    "checkpoints": [
+      "approve_competitors",
+      "approve_brief"
+    ],
+    "issues": [],
+    "found_claims": 44,
+    "verified_claims": 42,
+    "high_confidence": 33,
+    "excluded": {
+      "news older than 90 days (2026-06-04)": 1,
+      "quote not found in source": 1
+    },
+    "field_coverage": {
+      "Salesforce": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Zoho CRM": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Freshsales": [
+        "pricing",
+        "feature",
+        "positioning"
+      ]
+    },
+    "branch_status": {
+      "Salesforce": "complete",
+      "Zoho CRM": "complete",
+      "Freshsales": "complete"
+    },
+    "tavily_credits": 35.0,
+    "nebius_usd": 0.0304,
+    "retries": 2,
+    "prices_to_check": [
+      {
+        "competitor": "Salesforce",
+        "plan": "Starter Suite",
+        "value": "$25 USD per user per month, billed monthly or annually",
+        "confidence": "high",
+        "source": "https://www.salesforce.com/sales/pricing"
+      },
+      {
+        "competitor": "Salesforce",
+        "plan": "Nonprofit Cloud Sales & Service Core",
+        "value": "$70 USD per user per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.salesforce.com/nonprofit/pricing"
+      },
+      {
+        "competitor": "Salesforce",
+        "plan": "Nonprofit Cloud Sales & Service Advanced",
+        "value": "$125 USD per user per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.salesforce.com/nonprofit/pricing"
+      },
+      {
+        "competitor": "Salesforce",
+        "plan": "Nonprofit Cloud Sales Max",
+        "value": "$285 USD per user per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.salesforce.com/nonprofit/pricing"
+      },
+      {
+        "competitor": "Salesforce",
+        "plan": "Sales Cloud Core",
+        "value": "$195 USD per user per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.salesforce.com/sales/pricing"
+      },
+      {
+        "competitor": "Salesforce",
+        "plan": "Sales Cloud Advanced",
+        "value": "$395 USD per user per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.salesforce.com/sales/pricing"
+      },
+      {
+        "competitor": "Salesforce",
+        "plan": "Sales Cloud Max",
+        "value": "$550 USD per user per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.salesforce.com/sales/pricing"
+      },
+      {
+        "competitor": "Salesforce",
+        "plan": "Service Cloud Core",
+        "value": "$195 USD per user per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.salesforce.com/service/cloud"
+      },
+      {
+        "competitor": "Salesforce",
+        "plan": "Service Cloud Advanced",
+        "value": "$395 USD per user per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.salesforce.com/service/cloud"
+      },
+      {
+        "competitor": "Salesforce",
+        "plan": "Revenue Cloud",
+        "value": "From $200 USD per user per month",
+        "confidence": "high",
+        "source": "https://www.salesforce.com/sales/pricing"
+      },
+      {
+        "competitor": "Salesforce",
+        "plan": "Partner Relationship Management",
+        "value": "From $10 USD per login per month",
+        "confidence": "high",
+        "source": "https://www.salesforce.com/sales/pricing"
+      },
+      {
+        "competitor": "Zoho CRM",
+        "plan": "Free",
+        "value": "Free for 3 users",
+        "confidence": "high",
+        "source": "https://www.zoho.com/crm/complete-feature-list.html"
+      },
+      {
+        "competitor": "Zoho CRM",
+        "plan": "Standard",
+        "value": "\u20b91,300 per user/month, billed monthly",
+        "confidence": "high",
+        "source": "https://www.zoho.com/crm/complete-feature-list.html"
+      },
+      {
+        "competitor": "Zoho CRM",
+        "plan": "Professional",
+        "value": "\u20b92,100 per user/month, billed monthly",
+        "confidence": "high",
+        "source": "https://www.zoho.com/crm/complete-feature-list.html"
+      },
+      {
+        "competitor": "Zoho CRM",
+        "plan": "Enterprise",
+        "value": "\u20b93,000 per user/month, billed monthly",
+        "confidence": "high",
+        "source": "https://www.zoho.com/crm/complete-feature-list.html"
+      },
+      {
+        "competitor": "Zoho CRM",
+        "plan": "Ultimate",
+        "value": "\u20b93,200 per user/month, billed monthly",
+        "confidence": "high",
+        "source": "https://www.zoho.com/crm/complete-feature-list.html"
+      },
+      {
+        "competitor": "Freshsales",
+        "plan": "Growth",
+        "value": "$9/user/month, billed annually",
+        "confidence": "high",
+        "source": "https://www.freshworks.com/crm/pricing"
+      },
+      {
+        "competitor": "Freshsales",
+        "plan": "Pro",
+        "value": "$39/user/month, billed annually",
+        "confidence": "high",
+        "source": "https://www.freshworks.com/crm/pricing"
+      },
+      {
+        "competitor": "Freshsales",
+        "plan": "Enterprise",
+        "value": "$59/user/month, billed annually",
+        "confidence": "high",
+        "source": "https://www.freshworks.com/crm/pricing"
+      }
+    ],
+    "brief_path": "C:\\Users\\siryi\\competitor-research-agent\\data\\briefs\\run-8bae23f2.md"
+  },
+  {
+    "company": "Zoom",
+    "run_id": "run-8c2d06a6",
+    "completed": true,
+    "seconds": 157,
+    "proposed": [
+      "Microsoft Teams",
+      "Google Meet",
+      "Cisco Webex"
+    ],
+    "discovery_hits": [
+      "Microsoft Teams",
+      "Google Meet",
+      "Cisco Webex"
+    ],
+    "checkpoints": [
+      "approve_competitors",
+      "approve_brief"
+    ],
+    "issues": [],
+    "found_claims": 58,
+    "verified_claims": 57,
+    "high_confidence": 43,
+    "excluded": {
+      "quote not found in source": 1
+    },
+    "field_coverage": {
+      "Microsoft Teams": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Google Meet": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Cisco Webex": [
+        "pricing",
+        "feature",
+        "positioning"
+      ]
+    },
+    "branch_status": {
+      "Microsoft Teams": "complete",
+      "Google Meet": "complete",
+      "Cisco Webex": "complete"
+    },
+    "tavily_credits": 36.0,
+    "nebius_usd": 0.0285,
+    "retries": 2,
+    "prices_to_check": [
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft 365 F3 (no Teams)",
+        "value": "$8.93 per user/month, effective July 1, 2026",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/2026-m365-packaging-pricing-updates"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft 365 E3 (no Teams)",
+        "value": "$33.75 per user/month",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/microsoft365-teams-ww"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft 365 E5 (no Teams)",
+        "value": "$51.45 per user/month, paid yearly",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-enterprise-options"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft Teams Enterprise",
+        "value": "$5.25 per user/month",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/microsoft365-teams-ww"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft 365 F1 (no Teams)",
+        "value": "$2.50 per user/month, effective July 1, 2026",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/2026-m365-packaging-pricing-updates"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Office 365 F3 (no Teams)",
+        "value": "$3.50 per user/month",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/microsoft365-teams-ww"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft 365 Business Basic (no Teams)",
+        "value": "$4.75 per user/month",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/microsoft365-teams-ww"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft 365 Business Standard (no Teams)",
+        "value": "$10.25 per user/month",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/microsoft365-teams-ww"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft 365 Business Premium (no Teams)",
+        "value": "$19.75 per user/month",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/microsoft365-teams-ww"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft 365 F1",
+        "value": "$3.00 per user/month, effective July 1, 2026",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/2026-m365-packaging-pricing-updates"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft 365 F3",
+        "value": "$10.00 per user/month, effective July 1, 2026",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/2026-m365-packaging-pricing-updates"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft 365 Business Basic",
+        "value": "$7.00 per user/month, effective July 1, 2026",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/2026-m365-packaging-pricing-updates"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft 365 Business Standard",
+        "value": "$14.00 per user/month, effective July 1, 2026",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/licensing/news/2026-m365-packaging-pricing-updates"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft Teams Phone Standard",
+        "value": "$10.00 per user/month, paid yearly",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/microsoft-teams/microsoft-teams-phone"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Teams Phone with domestic and international calling",
+        "value": "$34.00 per user/month, paid yearly",
+        "confidence": "medium",
+        "source": "https://www.microsoft.com/en-us/microsoft-teams/microsoft-teams-phone"
+      },
+      {
+        "competitor": "Microsoft Teams",
+        "plan": "Microsoft Teams Premium",
+        "value": "$10.00 per user/month, paid yearly",
+        "confidence": "high",
+        "source": "https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-enterprise-options"
+      },
+      {
+        "competitor": "Google Meet",
+        "plan": "Business Starter",
+        "value": "$7.00 per user/month, billed annually",
+        "confidence": "high",
+        "source": "https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans"
+      },
+      {
+        "competitor": "Google Meet",
+        "plan": "Business Standard",
+        "value": "$14.00 per user/month, billed annually",
+        "confidence": "high",
+        "source": "https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans"
+      },
+      {
+        "competitor": "Google Meet",
+        "plan": "Business Plus",
+        "value": "$22.00 per user/month, billed annually",
+        "confidence": "high",
+        "source": "https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans"
+      },
+      {
+        "competitor": "Cisco Webex",
+        "plan": "Webex Suite",
+        "value": "$11.95 per month, billed annually via Enterprise Agreement",
+        "confidence": "high",
+        "source": "https://investor.cisco.com/news/news-details/2022/Webex-by-Cisco-Delivers-New-Technology-to-Enable-Flexibility-for-the-Hybrid-Workforce/default.aspx"
+      },
+      {
+        "competitor": "Cisco Webex",
+        "plan": "Cisco Calling Plan",
+        "value": "$3.50 per user per month",
+        "confidence": "high",
+        "source": "https://blogs.cisco.com/collaboration/cisco-collaboration-flex-plan-now-includes-cisco-calling-plans-and-better-together-security-collaboration-offers"
+      },
+      {
+        "competitor": "Cisco Webex",
+        "plan": "Webex Room Bar",
+        "value": "$3,795",
+        "confidence": "high",
+        "source": "https://investor.cisco.com/news/news-details/2022/Webex-by-Cisco-Delivers-New-Technology-to-Enable-Flexibility-for-the-Hybrid-Workforce/default.aspx"
+      },
+      {
+        "competitor": "Cisco Webex",
+        "plan": "Webex Contact Center Standard Named",
+        "value": "$85 per agent per month",
+        "confidence": "low",
+        "source": "https://www.cisco.com/c/en/us/products/collateral/sanity/tennis-release/Tennis-Sanity.html"
+      },
+      {
+        "competitor": "Cisco Webex",
+        "plan": "Webex Contact Center Premium Named",
+        "value": "$130 per agent per month",
+        "confidence": "low",
+        "source": "https://www.cisco.com/c/en/us/products/collateral/sanity/tennis-release/Tennis-Sanity.html"
+      },
+      {
+        "competitor": "Cisco Webex",
+        "plan": "Webex Contact Center Standard Concurrent",
+        "value": "$115 per agent per month",
+        "confidence": "low",
+        "source": "https://www.cisco.com/c/en/us/products/collateral/sanity/tennis-release/Tennis-Sanity.html"
+      },
+      {
+        "competitor": "Cisco Webex",
+        "plan": "Webex Contact Center Premium Concurrent",
+        "value": "$170 per agent per month",
+        "confidence": "low",
+        "source": "https://www.cisco.com/c/en/us/products/collateral/sanity/tennis-release/Tennis-Sanity.html"
+      },
+      {
+        "competitor": "Cisco Webex",
+        "plan": "Webex Contact Center Enterprise",
+        "value": "$18,000",
+        "confidence": "low",
+        "source": "https://www.cisco.com/c/en/us/products/collateral/sanity/tennis-release/Tennis-Sanity.html"
+      }
+    ],
+    "brief_path": "C:\\Users\\siryi\\competitor-research-agent\\data\\briefs\\run-8c2d06a6.md"
+  },
+  {
+    "company": "Mailchimp",
+    "run_id": "run-b13cc347",
+    "completed": true,
+    "seconds": 85,
+    "proposed": [
+      "Klaviyo",
+      "Brevo",
+      "Omnisend"
+    ],
+    "discovery_hits": [
+      "Klaviyo",
+      "Brevo",
+      "Omnisend"
+    ],
+    "checkpoints": [
+      "approve_competitors",
+      "approve_brief"
+    ],
+    "issues": [],
+    "found_claims": 32,
+    "verified_claims": 29,
+    "high_confidence": 22,
+    "excluded": {
+      "about a different company": 1,
+      "quote not found in source": 2
+    },
+    "field_coverage": {
+      "Klaviyo": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Brevo": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Omnisend": [
+        "pricing",
+        "feature",
+        "positioning"
+      ]
+    },
+    "branch_status": {
+      "Klaviyo": "complete",
+      "Brevo": "complete",
+      "Omnisend": "complete"
+    },
+    "tavily_credits": 38.0,
+    "nebius_usd": 0.0306,
+    "retries": 3,
+    "prices_to_check": [
+      {
+        "competitor": "Klaviyo",
+        "plan": "Free plan",
+        "value": "Free for up to 250 active profiles and 500 email sends per month, with $5 of mobile messages and $5 of Composer usage per month.",
+        "confidence": "high",
+        "source": "https://www.klaviyo.com/pricing"
+      },
+      {
+        "competitor": "Klaviyo",
+        "plan": "Paid plans",
+        "value": "$20 per month for 500 active profiles, with pricing based on active profiles.",
+        "confidence": "high",
+        "source": "https://www.klaviyo.com/products/email-marketing"
+      },
+      {
+        "competitor": "Brevo",
+        "plan": "Free plan",
+        "value": "$0 per month",
+        "confidence": "high",
+        "source": "https://help.brevo.com/hc/en-us/articles/208589409-About-Brevo-s-pricing-plans"
+      },
+      {
+        "competitor": "Brevo",
+        "plan": "Starter plan",
+        "value": "$9 per month",
+        "confidence": "high",
+        "source": "https://help.brevo.com/hc/en-us/articles/208589409-About-Brevo-s-pricing-plans"
+      },
+      {
+        "competitor": "Brevo",
+        "plan": "Standard plan",
+        "value": "$18 per month",
+        "confidence": "high",
+        "source": "https://help.brevo.com/hc/en-us/articles/208589409-About-Brevo-s-pricing-plans"
+      },
+      {
+        "competitor": "Brevo",
+        "plan": "Professional plan",
+        "value": "$499 per month",
+        "confidence": "high",
+        "source": "https://help.brevo.com/hc/en-us/articles/208589409-About-Brevo-s-pricing-plans"
+      },
+      {
+        "competitor": "Brevo",
+        "plan": "Additional marketing seats on Standard plan",
+        "value": "$12 per month for each seat",
+        "confidence": "high",
+        "source": "https://help.brevo.com/hc/en-us/articles/4409354969746-Customize-your-plan-with-add-ons"
+      },
+      {
+        "competitor": "Brevo",
+        "plan": "Additional marketing seats on Professional plan",
+        "value": "$156.60 per month for each pack of 5 seats",
+        "confidence": "high",
+        "source": "https://help.brevo.com/hc/en-us/articles/4409354969746-Customize-your-plan-with-add-ons"
+      },
+      {
+        "competitor": "Brevo",
+        "plan": "SAML SSO add-on",
+        "value": "$324 per month",
+        "confidence": "high",
+        "source": "https://help.brevo.com/hc/en-us/articles/4409354969746-Customize-your-plan-with-add-ons"
+      },
+      {
+        "competitor": "Brevo",
+        "plan": "Multi-language package add-on",
+        "value": "$215 per month for each add-on",
+        "confidence": "high",
+        "source": "https://help.brevo.com/hc/en-us/articles/4409354969746-Customize-your-plan-with-add-ons"
+      },
+      {
+        "competitor": "Omnisend",
+        "plan": "Free plan",
+        "value": "$0/month",
+        "confidence": "high",
+        "source": "https://omnisend.com/pricing"
+      },
+      {
+        "competitor": "Omnisend",
+        "plan": "Standard plan",
+        "value": "starting at $16/month, billed based on 12x contacts",
+        "confidence": "high",
+        "source": "https://www.omnisend.com/blog/cheap-email-marketing"
+      },
+      {
+        "competitor": "Omnisend",
+        "plan": "Pro plan",
+        "value": "$59/month for unlimited emails and 2,500 contacts",
+        "confidence": "high",
+        "source": "https://www.omnisend.com/blog/cheap-email-marketing"
+      },
+      {
+        "competitor": "Omnisend",
+        "plan": "SMS add-on",
+        "value": "starting at $0.007/SMS for US sends, volume-based pricing",
+        "confidence": "high",
+        "source": "https://support.omnisend.com/en/articles/3533018-omnisend-pricing-plans-2026"
+      }
+    ],
+    "brief_path": "C:\\Users\\siryi\\competitor-research-agent\\data\\briefs\\run-b13cc347.md"
+  },
+  {
+    "company": "Shopify",
+    "run_id": "run-d06ada89",
+    "completed": true,
+    "seconds": 92,
+    "proposed": [
+      "WooCommerce",
+      "BigCommerce",
+      "Wix"
+    ],
+    "discovery_hits": [
+      "WooCommerce",
+      "BigCommerce",
+      "Wix"
+    ],
+    "checkpoints": [
+      "approve_competitors",
+      "review_issues",
+      "approve_brief"
+    ],
+    "issues": [
+      {
+        "competitor": "Wix",
+        "kind": "conflict",
+        "claim_id": "cl-wix-pricing-94a0426e8d32",
+        "detail": "pricing (Core): $29 per month, billed annually"
+      },
+      {
+        "competitor": "Wix",
+        "kind": "conflict",
+        "claim_id": "cl-wix-pricing-485461d08ae3",
+        "detail": "pricing (Business Elite): $159 per month, billed annually"
+      },
+      {
+        "competitor": "Wix",
+        "kind": "conflict",
+        "claim_id": "cl-wix-news-079e47024771",
+        "detail": "news (Wix Black Friday 2026 deal): In November 2026, Wix offered 50% off annual plans, reducing the Core plan to $14.50/month and the Business Elite plan to $79.50/month."
+      }
+    ],
+    "found_claims": 28,
+    "verified_claims": 25,
+    "high_confidence": 22,
+    "excluded": {
+      "news older than 90 days (2024-12-12)": 1,
+      "news older than 90 days (2026-06-23)": 1,
+      "quote not found in source": 1
+    },
+    "field_coverage": {
+      "WooCommerce": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "BigCommerce": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Wix": [
+        "pricing",
+        "feature",
+        "positioning"
+      ]
+    },
+    "branch_status": {
+      "WooCommerce": "complete",
+      "BigCommerce": "complete",
+      "Wix": "complete"
+    },
+    "tavily_credits": 35.0,
+    "nebius_usd": 0.0251,
+    "retries": 2,
+    "prices_to_check": [
+      {
+        "competitor": "WooCommerce",
+        "plan": "Core platform",
+        "value": "free, with no monthly subscription",
+        "confidence": "high",
+        "source": "https://woocommerce.com/pricing"
+      },
+      {
+        "competitor": "WooCommerce",
+        "plan": "Hosting",
+        "value": "$25 \u2013 $350/month",
+        "confidence": "high",
+        "source": "https://woocommerce.com/pricing"
+      },
+      {
+        "competitor": "WooCommerce",
+        "plan": "Extensions",
+        "value": "$29 \u2013 $299/year per extension",
+        "confidence": "high",
+        "source": "https://woocommerce.com/pricing"
+      },
+      {
+        "competitor": "BigCommerce",
+        "plan": "Core",
+        "value": "$29 per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.bigcommerce.com/dm/plan-pricing-updates-2026"
+      },
+      {
+        "competitor": "BigCommerce",
+        "plan": "Growth",
+        "value": "$79 per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.bigcommerce.com/dm/plan-pricing-updates-2026"
+      },
+      {
+        "competitor": "BigCommerce",
+        "plan": "Scale",
+        "value": "$299 per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.bigcommerce.com/dm/plan-pricing-updates-2026"
+      },
+      {
+        "competitor": "Wix",
+        "plan": "Free",
+        "value": "$0 per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.wix.com/blog/how-much-is-a-wix-website"
+      },
+      {
+        "competitor": "Wix",
+        "plan": "Light",
+        "value": "$17 per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.wix.com/blog/how-much-is-a-wix-website"
+      },
+      {
+        "competitor": "Wix",
+        "plan": "Business",
+        "value": "$39 per month, billed annually",
+        "confidence": "high",
+        "source": "https://www.wix.com/blog/how-much-is-a-wix-website"
+      }
+    ],
+    "brief_path": "C:\\Users\\siryi\\competitor-research-agent\\data\\briefs\\run-d06ada89.md"
+  },
+  {
+    "company": "Razorpay",
+    "run_id": "run-0d4338d5",
+    "completed": true,
+    "seconds": 74,
+    "proposed": [
+      "PayU",
+      "Paytm",
+      "Cashfree"
+    ],
+    "discovery_hits": [
+      "PayU",
+      "Paytm",
+      "Cashfree"
+    ],
+    "checkpoints": [
+      "approve_competitors",
+      "approve_brief"
+    ],
+    "issues": [],
+    "found_claims": 29,
+    "verified_claims": 29,
+    "high_confidence": 16,
+    "excluded": {},
+    "field_coverage": {
+      "PayU": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Paytm": [
+        "pricing",
+        "feature",
+        "positioning"
+      ],
+      "Cashfree": [
+        "pricing",
+        "feature",
+        "positioning"
+      ]
+    },
+    "branch_status": {
+      "PayU": "complete",
+      "Paytm": "complete",
+      "Cashfree": "complete"
+    },
+    "tavily_credits": 16.0,
+    "nebius_usd": 0.0323,
+    "retries": 3,
+    "prices_to_check": [
+      {
+        "competitor": "PayU",
+        "plan": "Standard Plan",
+        "value": "2% per transaction for domestic cards, net banking, wallets, BNPL; 3% per transaction for EMI, American Express, Diners, international transactions; GST applicable extra",
+        "confidence": "high",
+        "source": "https://payu.in/pricing"
+      },
+      {
+        "competitor": "PayU",
+        "plan": "Setup and maintenance fees",
+        "value": "No setup, onboarding, or annual fees",
+        "confidence": "high",
+        "source": "https://payu.in/pricing"
+      },
+      {
+        "competitor": "Paytm",
+        "plan": "Small Merchant Plan",
+        "value": "0.00% for UPI transactions, 0.40% for Visa/Mastercard/Maestro debit cards, 1.40% for Grocery/Kirana categories (debit cards), 2.75% for Retail (except Electronics), Food, Insurance, Travel Agents, Entertainment (credit cards), 3.50% for American Express, 2.99% for International Card, with no setup or annual maintenance fees, billed per transaction",
+        "confidence": "medium",
+        "source": "https://business.paytm.com/pricing"
+      },
+      {
+        "competitor": "Paytm",
+        "plan": "Big Merchant Plan",
+        "value": "0.00% for UPI transactions, 0.40% (for transactions under \u20b92,000) or 0.90% (for transactions over \u20b92,000) for Visa/Mastercard/Maestro debit cards, 1.40% for Grocery/Kirana categories (debit cards), 2.75% for Retail (except Electronics), Food, Insurance, Travel Agents, Entertainment (credit cards), 3.50% for American Express, 2.99% for International Card, with no setup or annual maintenance fees, billed per transaction",
+        "confidence": "medium",
+        "source": "https://business.paytm.com/pricing"
+      },
+      {
+        "competitor": "Cashfree",
+        "plan": "Standard Domestic Plan",
+        "value": "0% platform fee for domestic transactions up to \u20b920,00,000 GMV, then 1.95% plus GST, with no setup fee or annual maintenance charge, valid until 31 March 2027 for new merchants signing up on or after 21 July 2026",
+        "confidence": "high",
+        "source": "https://www.cashfree.com/docs/help/account/pricing"
+      },
+      {
+        "competitor": "Cashfree",
+        "plan": "International Cards",
+        "value": "2.99% for Visa and Mastercard, 2.95% for American Express, plus applicable GST, with no festive offer discount",
+        "confidence": "medium",
+        "source": "https://www.cashfree.com/docs/help/account/pricing"
+      },
+      {
+        "competitor": "Cashfree",
+        "plan": "EMI and Pay Later",
+        "value": "Credit Card EMI starting at 1.90% platform fee plus 0.25%, Debit Card EMI (HDFC Bank) at 1.50%, Cardless EMI at 1.90%, Pay Later at 2.20%, all excluded from festive offer",
+        "confidence": "medium",
+        "source": "https://www.cashfree.com/docs/help/account/pricing"
+      },
+      {
+        "competitor": "Cashfree",
+        "plan": "Easy Split",
+        "value": "0.20% per split in addition to standard payment gateway charges",
+        "confidence": "high",
+        "source": "https://www.cashfree.com/docs/help/easy-split/faqs/faqs"
+      },
+      {
+        "competitor": "Cashfree",
+        "plan": "Instant Settlements",
+        "value": "0.30% platform fee, price excludes GST",
+        "confidence": "high",
+        "source": "https://www.cashfree.com/payment-gateway-charges"
+      }
+    ],
+    "brief_path": "C:\\Users\\siryi\\competitor-research-agent\\data\\briefs\\run-0d4338d5.md"
+  }
+]

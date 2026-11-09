@@ -1,0 +1,376 @@
+[
+  {
+    "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "task": "extract",
+    "seconds": 9.4,
+    "llm_calls": 2,
+    "cost_usd": 0.0005243,
+    "score": 0.8571428571428571,
+    "failed_checks": [
+      "enterprise_not_public"
+    ],
+    "error": null
+  },
+  {
+    "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "task": "extract",
+    "seconds": 14.7,
+    "llm_calls": 2,
+    "cost_usd": 0.0005114000000000001,
+    "score": 0.8571428571428571,
+    "failed_checks": [
+      "enterprise_not_public"
+    ],
+    "error": null
+  },
+  {
+    "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "task": "assess",
+    "seconds": 1.4,
+    "llm_calls": 2,
+    "cost_usd": 0.0001609,
+    "score": 0.8,
+    "failed_checks": [
+      "stale_news"
+    ],
+    "error": null
+  },
+  {
+    "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "task": "assess",
+    "seconds": 1.6,
+    "llm_calls": 2,
+    "cost_usd": 0.0001705,
+    "score": 0.8,
+    "failed_checks": [
+      "stale_news"
+    ],
+    "error": null
+  },
+  {
+    "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "task": "rank",
+    "seconds": 9.1,
+    "llm_calls": 2,
+    "cost_usd": 0.00037830000000000003,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "task": "rank",
+    "seconds": 9.1,
+    "llm_calls": 2,
+    "cost_usd": 0.0003831,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "task": "extract",
+    "seconds": 12.9,
+    "llm_calls": 2,
+    "cost_usd": 0.0014344400000000002,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "task": "extract",
+    "seconds": 14.3,
+    "llm_calls": 2,
+    "cost_usd": 0.0016248400000000002,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "task": "assess",
+    "seconds": 6.5,
+    "llm_calls": 2,
+    "cost_usd": 0.00053662,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "task": "assess",
+    "seconds": 5.4,
+    "llm_calls": 2,
+    "cost_usd": 0.00087038,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "task": "rank",
+    "seconds": 1.9,
+    "llm_calls": 2,
+    "cost_usd": 0.0006734000000000001,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "task": "rank",
+    "seconds": 2.6,
+    "llm_calls": 2,
+    "cost_usd": 0.0006339200000000001,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "zai-org/GLM-5.3-Flash",
+    "task": "extract",
+    "seconds": 7.8,
+    "llm_calls": 2,
+    "cost_usd": 0.0022228,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "zai-org/GLM-5.3-Flash",
+    "task": "extract",
+    "seconds": 7.3,
+    "llm_calls": 2,
+    "cost_usd": 0.0023083,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "zai-org/GLM-5.3-Flash",
+    "task": "assess",
+    "seconds": 21.6,
+    "llm_calls": 2,
+    "cost_usd": 0.000652,
+    "score": 0.0,
+    "failed_checks": [],
+    "error": "LLMError: all models failed: zai-org/GLM-5.3-Flash: LengthFinishReasonError: Could not parse response content as the length limit was reached - CompletionUsage(completion_tokens=4000, prompt_tokens=612, total_tokens=4612, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=N"
+  },
+  {
+    "model": "zai-org/GLM-5.3-Flash",
+    "task": "assess",
+    "seconds": 21.9,
+    "llm_calls": 2,
+    "cost_usd": 0.001038,
+    "score": 0.0,
+    "failed_checks": [],
+    "error": "LLMError: all models failed: zai-org/GLM-5.3-Flash: LengthFinishReasonError: Could not parse response content as the length limit was reached - CompletionUsage(completion_tokens=4000, prompt_tokens=612, total_tokens=4612, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=N"
+  },
+  {
+    "model": "zai-org/GLM-5.3-Flash",
+    "task": "rank",
+    "seconds": 3.9,
+    "llm_calls": 2,
+    "cost_usd": 0.00111845,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "zai-org/GLM-5.3-Flash",
+    "task": "rank",
+    "seconds": 4.6,
+    "llm_calls": 2,
+    "cost_usd": 0.0011914500000000001,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "task": "extract",
+    "seconds": 4.0,
+    "llm_calls": 2,
+    "cost_usd": 0.0011032,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "task": "extract",
+    "seconds": 3.3,
+    "llm_calls": 2,
+    "cost_usd": 0.0011032,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "task": "assess",
+    "seconds": 1.0,
+    "llm_calls": 2,
+    "cost_usd": 0.000368,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "task": "assess",
+    "seconds": 0.9,
+    "llm_calls": 2,
+    "cost_usd": 0.0003608,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "task": "rank",
+    "seconds": 2.1,
+    "llm_calls": 2,
+    "cost_usd": 0.0005994,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "task": "rank",
+    "seconds": 2.2,
+    "llm_calls": 2,
+    "cost_usd": 0.0006312,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "task": "extract",
+    "seconds": 3.4,
+    "llm_calls": 2,
+    "cost_usd": 0.00154065,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "task": "extract",
+    "seconds": 4.5,
+    "llm_calls": 2,
+    "cost_usd": 0.00179145,
+    "score": 0.8571428571428571,
+    "failed_checks": [
+      "enterprise_not_public"
+    ],
+    "error": null
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "task": "assess",
+    "seconds": 1.8,
+    "llm_calls": 2,
+    "cost_usd": 0.0009157499999999999,
+    "score": 0.8,
+    "failed_checks": [
+      "no_false_stale"
+    ],
+    "error": null
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "task": "assess",
+    "seconds": 1.4,
+    "llm_calls": 2,
+    "cost_usd": 0.00071415,
+    "score": 0.8,
+    "failed_checks": [
+      "no_false_stale"
+    ],
+    "error": null
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "task": "rank",
+    "seconds": 1.9,
+    "llm_calls": 2,
+    "cost_usd": 0.0010512,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "task": "rank",
+    "seconds": 1.9,
+    "llm_calls": 2,
+    "cost_usd": 0.0011034,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "task": "extract",
+    "seconds": 3.8,
+    "llm_calls": 2,
+    "cost_usd": 0.0021656999999999996,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "task": "extract",
+    "seconds": 3.6,
+    "llm_calls": 2,
+    "cost_usd": 0.0022053,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "task": "assess",
+    "seconds": 7.0,
+    "llm_calls": 2,
+    "cost_usd": 0.0036365999999999994,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "task": "assess",
+    "seconds": 7.6,
+    "llm_calls": 2,
+    "cost_usd": 0.0033185999999999997,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "task": "rank",
+    "seconds": 4.1,
+    "llm_calls": 2,
+    "cost_usd": 0.0017976,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  },
+  {
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "task": "rank",
+    "seconds": 3.4,
+    "llm_calls": 2,
+    "cost_usd": 0.0018912,
+    "score": 1,
+    "failed_checks": [],
+    "error": null
+  }
+]

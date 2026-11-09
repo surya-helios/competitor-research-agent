@@ -1,0 +1,45 @@
+# Reference set for evals/run_evals.py.
+# `expected` lists well-known direct competitors; a proposed competitor counts as
+# correct if it matches any of them. The lists are a starting point: edit them
+# as you review results.
+
+- company: Linear
+  website: linear.app
+  market: issue tracking software
+  expected: [Jira, Shortcut, GitHub Issues, Plane, ClickUp, Height, YouTrack, Asana, Monday]
+
+- company: Notion
+  website: notion.so
+  market: docs and wiki workspace
+  expected: [Coda, Confluence, ClickUp, Obsidian, Microsoft Loop, Slite, Nuclino, Evernote, Craft, Anytype]
+
+- company: Figma
+  website: figma.com
+  market: UI design and prototyping tools
+  expected: [Sketch, Adobe XD, Penpot, Framer, Canva, InVision, Lunacy, UXPin, Axure]
+
+- company: HubSpot
+  website: hubspot.com
+  market: CRM software
+  expected: [Salesforce, Zoho CRM, Pipedrive, Freshsales, Freshworks, Microsoft Dynamics 365, Monday CRM, Close]
+
+- company: Zoom
+  website: zoom.us
+  market: video conferencing
+  expected: [Microsoft Teams, Google Meet, Webex, GoTo Meeting, RingCentral, Whereby, BlueJeans]
+
+- company: Mailchimp
+  website: mailchimp.com
+  market: email marketing
+  expected: [Klaviyo, Constant Contact, Brevo, Sendinblue, MailerLite, ActiveCampaign, HubSpot, Campaign Monitor, Omnisend, ConvertKit, Kit]
+
+- company: Shopify
+  website: shopify.com
+  market: e-commerce platform
+  expected: [BigCommerce, WooCommerce, Wix, Squarespace, Adobe Commerce, Magento, Ecwid, Shift4Shop, PrestaShop]
+
+- company: Razorpay
+  website: razorpay.com
+  market: payment gateway
+  region: India
+  expected: [PayU, Cashfree, Paytm, CCAvenue, PhonePe, Stripe, Juspay, Instamojo, Pine Labs, BillDesk]
